@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "name": "John",
+      "lastName": "Doe",
+      "username": "johndoe",
+      "password": "johnd123",
+      "gender": "male",
+      "age": 30,
+      "email": "johndoe@mail.ru"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "lastName": "Doe",
+      "username": "janedoe",
+      "password": "janed123",
+      "gender": "female",
+      "age": 25,
+      "email": "janedoe@mail.ru"
+    },
+    {
+        "id": 3,
+        "name": "Michael",
+        "lastName": "Brown",
+        "username": "michaelbrown",
+        "password": "michael123",
+        "gender": "male",
+        "age": 35,
+        "email": "michaelbrown@mail.ru"
+      },
+      {
+        "id": 4,
+        "name": "Emily",
+        "lastName": "Johnson",
+        "username": "emilyjohnson",
+        "password": "emilyj123",
+        "gender": "female",
+        "age": 28,
+        "email": "emilyjohnson@mail.ru"
+      },
+      {
+        "id": 5,
+        "name": "William",
+        "lastName": "Davis",
+        "username": "williamdavis",
+        "password": "williamd123",
+        "gender": "male",
+        "age": 40,
+        "email": "williamdavis@mail.ru"
+      },
+      {
+        "id": 6,
+        "name": "Olivia",
+        "lastName": "Miller",
+        "username": "oliviamiller",
+        "password": "oliviam123",
+        "gender": "female",
+        "age": 32,
+        "email": "oliviamiller@mail.ru"
+      },
+      {
+        "id": 7,
+        "name": "Benjamin",
+        "lastName": "Wilson",
+        "username": "benjaminwilson",
+        "password": "benjaminw123",
+        "gender": "male",
+        "age": 38,
+        "email": "benjaminwilson@mail.ru"
+      },
+      {
+        "id": 8,
+        "name": "Sophia",
+        "lastName": "Moore",
+        "username": "sophiamoore",
+        "password": "sophiam123",
+        "gender": "female",
+        "age": 29,
+        "email": "sophiamoore@mail.ru"
+      },
+      {
+        "id": 9,
+        "name": "Alexander",
+        "lastName": "Taylor",
+        "username": "alexandertaylor",
+        "password": "alexandert123",
+        "gender": "male",
+        "age": 42,
+        "email": "alexandertaylor@mail.ru"
+      },
+      {
+        "id": 10,
+        "name": "Isabella",
+        "lastName": "White",
+        "username": "isabellawhite",
+        "password": "isabellaw123",
+        "gender": "female",
+        "age": 26,
+        "email": "isabellawhite@mail.ru"
+      },
+      {
+        "id": 11,
+        "name": "Ethan",
+        "lastName": "Harris",
+        "username": "ethanharris",
+        "password": "ethanh123",
+        "gender": "male",
+        "age": 36,
+        "email": "ethanharris@mail.ru"
+      },
+      {
+        "id": 12,
+        "name": "Ava",
+        "lastName": "Martin",
+        "username": "avamartin",
+        "password": "avam123",
+        "gender": "female",
+        "age": 31,
+        "email": "avamartin@mail.ru"
+      }
+]
