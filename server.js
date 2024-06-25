@@ -75,6 +75,44 @@ app.get('/users', (req, res) => {
   res.send(users)
 })
 
+app.post('/register', (req, res) => {
+  const { username, password, email, name, lastName, age, gender } = req.body
+
+  if (!username || !password || !email || !name || !lastName || !age || !gender) {
+    res.status(400).send({ message: 'Please fill in all required fields' })
+    return
+  }
+
+  const existingUser = users.find((user) => user.username === username || user.email === email)
+  if (existingUser) {
+    if (existingUser.username === username) {
+      res.status(400).send({ message: 'Username is already taken' })
+    } else if (existingUser.email === email) {
+      res.status(400).send({ message: 'Email is already in use' })
+    }
+  } else {
+    const user = {
+      id: users.length + 1,
+      username,
+      password,
+      email,
+      name,
+      lastName,
+      age,
+      gender
+    }
+    users.push(user)
+    fs.writeFile(usersFile, JSON.stringify(users), (err) => {
+      if (err) {
+        console.error(err)
+        res.status(500).send({ message: 'Error registering user' })
+      } else {
+        res.send({ message: 'User registered successfully' })
+      }
+    })
+  }
+})
+
 app.listen(3000, () => {
   console.log('Сервер запущен на порту 3000')
 })
